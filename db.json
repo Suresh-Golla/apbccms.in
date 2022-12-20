@@ -1,0 +1,1107 @@
+{
+  "Signup": [
+    {
+      "firstName": "ntr",
+      "lastName": "golla",
+      "email": "g@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "45",
+      "id": 1
+    },
+    {
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "sg@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "1234234",
+      "id": 2
+    },
+    {
+      "firstName": "tarak",
+      "lastName": "nandamuri",
+      "email": "ntr@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "352345345",
+      "id": 3
+    },
+    {
+      "firstName": "tarak",
+      "lastName": "nandamuri",
+      "email": "ntr@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "352345345",
+      "id": 4
+    },
+    {
+      "firstName": "tarak",
+      "lastName": "nandamuri",
+      "email": "ntr@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "352345345",
+      "id": 5
+    },
+    {
+      "firstName": "tarak",
+      "lastName": "nandamuri",
+      "email": "ntr@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "352345345",
+      "id": 6
+    },
+    {
+      "firstName": "tarak",
+      "lastName": "nandamuri",
+      "email": "ntr@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "352345345",
+      "id": 7
+    },
+    {
+      "firstName": "tarak",
+      "lastName": "nandamuri",
+      "email": "ntr@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "352345345",
+      "id": 8
+    },
+    {
+      "firstName": "tarak",
+      "lastName": "nandamuri",
+      "email": "ntr@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "352345345",
+      "id": 9
+    },
+    {
+      "firstName": "tarak",
+      "lastName": "nandamuri",
+      "email": "ntr@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "352345345",
+      "id": 10
+    },
+    {
+      "firstName": "tarak",
+      "lastName": "nandamuri",
+      "email": "ntr@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "352345345",
+      "id": 11
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "cpassword": "",
+      "mobile": "",
+      "id": 12
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "cpassword": "",
+      "mobile": "",
+      "id": 13
+    },
+    {
+      "firstName": "duty",
+      "lastName": "gov",
+      "email": "knfds",
+      "password": "er;ljkler",
+      "cpassword": ";lerjljrel",
+      "mobile": "lelrrljrel;lker",
+      "id": 14
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "cpassword": "",
+      "mobile": "",
+      "id": 15
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "cpassword": "",
+      "mobile": "",
+      "id": 16
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "cpassword": "",
+      "mobile": "",
+      "id": 17
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "mewlkrlkwe",
+      "password": ",wemlrklkwekrklk",
+      "cpassword": "",
+      "mobile": "",
+      "id": 18
+    },
+    {
+      "firstName": "federation",
+      "lastName": "bccms.in",
+      "email": "bccms.in",
+      "password": "21341234",
+      "cpassword": "234324",
+      "mobile": "324324324",
+      "id": 19
+    },
+    {
+      "firstName": "lkmerlkter",
+      "lastName": "lmt'lkert",
+      "email": ",mtrlrmlkt",
+      "password": "123",
+      "cpassword": "123",
+      "mobile": "2432432",
+      "id": 20
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "cpassword": "",
+      "mobile": "",
+      "id": 21
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "cpassword": "",
+      "mobile": "",
+      "id": 22
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "1",
+      "cpassword": "1",
+      "mobile": "",
+      "id": 23
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "cpassword": "",
+      "mobile": "",
+      "id": 24
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "cpassword": "",
+      "mobile": "",
+      "id": 25
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "cpassword": "",
+      "mobile": "",
+      "id": 26
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "cpassword": "",
+      "mobile": "",
+      "id": 27
+    }
+  ],
+  "Cadidates": [
+    {
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "s@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "13432",
+      "id": 4
+    },
+    {
+      "firstName": "kumar",
+      "lastName": "dasari",
+      "email": "dasari@gmail.com",
+      "password": "1234562323",
+      "cpassword": "1234562323",
+      "mobile": "234234235",
+      "id": 6
+    },
+    {
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "s@gmail.com",
+      "password": "757798879",
+      "cpassword": "76587878",
+      "mobile": "8762",
+      "id": 8
+    },
+    {
+      "firstName": "kumar",
+      "lastName": "dasari",
+      "email": "d@gmail.com",
+      "password": "dasarik",
+      "cpassword": "dasarik",
+      "mobile": "1324234",
+      "id": 9
+    },
+    {
+      "firstName": "kumar",
+      "lastName": "dasari",
+      "email": "d2g.com",
+      "password": "kjkljlkaxjlka",
+      "cpassword": "mnk.nlk/jlk",
+      "mobile": "12342423",
+      "id": 10
+    },
+    {
+      "firstName": "kumar",
+      "lastName": "dasari",
+      "email": "d2g.com",
+      "password": "kjkljlkaxjlka",
+      "cpassword": "mnk.nlk/jlk",
+      "mobile": "mkljjlkj;l",
+      "id": 11
+    },
+    {
+      "firstName": "kumar",
+      "lastName": "dasari",
+      "email": "d2g.com",
+      "password": "kjkljlkaxjlka",
+      "cpassword": "mnk.nlk/jlk",
+      "mobile": "mkljjlkj;l",
+      "id": 12
+    },
+    {
+      "firstName": "kumar",
+      "lastName": "dasari",
+      "email": "d2g.com",
+      "password": "kjkljlkaxjlka",
+      "cpassword": "mnk.nlk/jlk",
+      "mobile": "mkljjlkj;l",
+      "id": 13
+    },
+    {
+      "firstName": "kumar",
+      "lastName": "dasari",
+      "email": "d2g.com",
+      "password": "kjkljlkaxjlka",
+      "cpassword": "mnk.nlk/jlk",
+      "mobile": "mkljjlkj;l",
+      "id": 14
+    },
+    {
+      "firstName": "kumar",
+      "lastName": "dasari",
+      "email": "d2g.com",
+      "password": "kjkljlkaxjlka",
+      "cpassword": "mnk.nlk/jlk",
+      "mobile": "7897897898",
+      "id": 15
+    },
+    {
+      "firstName": "kumar",
+      "lastName": "dasari",
+      "email": "d2g.com",
+      "password": "kjkljlkaxjlka",
+      "cpassword": "mnk.nlk/jlk",
+      "mobile": "mkljjlkj;l",
+      "id": 16
+    },
+    {
+      "firstName": "kumar",
+      "lastName": "dasari",
+      "email": "d2g.com",
+      "password": "kjkljlkaxjlka",
+      "cpassword": "mnk.nlk/jlk",
+      "mobile": "mkljjlkj;l",
+      "id": 17
+    },
+    {
+      "firstName": "kumar",
+      "lastName": "dasari",
+      "email": "d2g.com",
+      "password": "kjkljlkaxjlka",
+      "cpassword": "mnk.nlk/jlk",
+      "mobile": "mkljjlkj;l",
+      "id": 18
+    },
+    {
+      "firstName": "kumar",
+      "lastName": "dasari",
+      "email": "d2g.com",
+      "password": "kjkljlkaxjlka",
+      "cpassword": "mnk.nlk/jlk",
+      "mobile": "123234",
+      "id": 19
+    },
+    {
+      "firstName": "kumar",
+      "lastName": "dasari",
+      "email": "d2g.com",
+      "password": "kjkljlkaxjlka",
+      "cpassword": "mnk.nlk/jlk",
+      "mobile": "mkljjlkj;l",
+      "id": 20
+    },
+    {
+      "firstName": "kumar",
+      "lastName": "dasari",
+      "email": "d2g.com",
+      "password": "kjkljlkaxjlka",
+      "cpassword": "mnk.nlk/jlk",
+      "mobile": "mkljjlkj;l",
+      "id": 21
+    },
+    {
+      "firstName": "kumar",
+      "lastName": "dasari",
+      "email": "d2g.com",
+      "password": "kjkljlkaxjlka",
+      "cpassword": "mnk.nlk/jlk",
+      "mobile": "mkljjlkj;l",
+      "id": 22
+    },
+    {
+      "firstName": "kumar",
+      "lastName": "dasari",
+      "email": "d2g.com",
+      "password": "kjkljlkaxjlka",
+      "cpassword": "mnk.nlk/jlk",
+      "mobile": "mkljjlkj;l",
+      "id": 23
+    },
+    {
+      "firstName": "kumar",
+      "lastName": "dasari",
+      "email": "d2g.com",
+      "password": "kjkljlkaxjlka",
+      "cpassword": "mnk.nlk/jlk",
+      "mobile": "mkljjlkj;l",
+      "id": 24
+    },
+    {
+      "firstName": "kumar",
+      "lastName": "dasari",
+      "email": "d2g.com",
+      "password": "kjkljlkaxjlka",
+      "cpassword": "mnk.nlk/jlk",
+      "mobile": "mkljjlkj;l",
+      "id": 25
+    },
+    {
+      "firstName": "lklj.klmlk",
+      "lastName": "mn.kn,mn.,mn",
+      "email": "iuyukyuhkvj",
+      "password": "jhfhjfj",
+      "cpassword": "ftjhfhgfhmf",
+      "mobile": "hgkhyjgjh,hj",
+      "id": 26
+    },
+    {
+      "firstName": "lkdf;sdk;fl",
+      "lastName": ";tlre;l",
+      "email": "lrekt;",
+      "password": "rekt;lk;re",
+      "cpassword": ";lkr;t",
+      "mobile": "lrmet;ker;l",
+      "id": 30
+    },
+    {
+      "firstName": "12432",
+      "lastName": "23423",
+      "email": "3242",
+      "password": "234234",
+      "cpassword": "234234",
+      "mobile": "sdfdfgdf",
+      "id": 31
+    },
+    {
+      "firstName": "jkl",
+      "lastName": "lke",
+      "email": "w@gmail.com",
+      "password": "1232423423",
+      "cpassword": "212342342",
+      "mobile": "1234234343",
+      "id": 33
+    },
+    {
+      "firstName": "kkk",
+      "lastName": "kkk",
+      "email": "jjjjj",
+      "password": "njjj",
+      "cpassword": "222",
+      "mobile": "222",
+      "id": 34
+    },
+    {
+      "firstName": "njjj",
+      "lastName": "jjjjj",
+      "email": "jjjjjjj",
+      "password": "jhhh",
+      "cpassword": "hhh",
+      "mobile": "jjjj",
+      "id": 35
+    },
+    {
+      "firstName": "kjhgiuy9",
+      "lastName": "jhjhj",
+      "email": "jhhkhk",
+      "password": "jhj",
+      "cpassword": "jhk",
+      "mobile": "jhhh",
+      "id": 36
+    },
+    {
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "s@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "132432432",
+      "id": 38
+    },
+    {
+      "firstName": "aqqswsghhj",
+      "lastName": "wdgxhggwhe",
+      "email": "w@gmail.com",
+      "password": "2343543",
+      "cpassword": "23435342354",
+      "mobile": "3658787883",
+      "id": 39
+    },
+    {
+      "firstName": "ntrtarak",
+      "lastName": "nandamuri",
+      "email": "n@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "999999999999",
+      "id": 41
+    }
+  ],
+  "Students": [
+    {
+      "firstName": "ntr",
+      "lastName": "golla",
+      "email": "g@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "999999999999999",
+      "id": 6
+    },
+    {
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "g@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "457934859843985",
+      "id": 7
+    },
+    {
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "g@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "457934859843985",
+      "id": 8
+    },
+    {
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "g@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "457934859843985",
+      "id": 9
+    },
+    {
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "g@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "457934859843985",
+      "id": 10
+    },
+    {
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "g@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "457934859843985",
+      "id": 11
+    },
+    {
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "g@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "457934859843985",
+      "id": 12
+    },
+    {
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "g@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "457934859843985",
+      "id": 13
+    },
+    {
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "g@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "457934859843985",
+      "id": 14
+    },
+    {
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "g@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "457934859843985",
+      "id": 15
+    },
+    {
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "g@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "457934859843985",
+      "id": 16
+    },
+    {
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "g@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "457934859843985",
+      "id": 17
+    },
+    {
+      "firstName": "suresh",
+      "lastName": "golla",
+      "email": "g@gmail.com",
+      "password": "12345",
+      "cpassword": "12345",
+      "mobile": "457934859843985",
+      "id": 18
+    },
+    {
+      "firstName": "ntr",
+      "lastName": "yamadonga",
+      "email": "ntr@gmail.com",
+      "password": "ntr1234",
+      "cpassword": "ntr1234",
+      "mobile": "1234234",
+      "id": 21
+    },
+    {
+      "firstName": "Ravi Teja",
+      "lastName": "Veligatla",
+      "email": "raviteja@gmail.com",
+      "password": "hello",
+      "cpassword": "hello",
+      "mobile": "9491444339",
+      "id": 22
+    }
+  ],
+  "Company": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "Institute": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "Federation": [
+    {
+      "fname": "suresh",
+      "lname": "suresh",
+      "email": "m@gmail.com",
+      "pwd": "1234234",
+      "mobile": "12312231231",
+      "gender": "Female",
+      "course": "Python",
+      "language": "",
+      "remember": true,
+      "id": 1
+    },
+    {
+      "fname": "suresh",
+      "lname": "suresh",
+      "email": "m@gmail.com",
+      "pwd": ";l;;l;llllllllllll",
+      "mobile": "suresh",
+      "gender": "Male",
+      "course": "Java",
+      "language": {
+        "telugu": "",
+        "english": "",
+        "hindi": ""
+      },
+      "remember": true,
+      "id": 18
+    },
+    {
+      "fname": "suresh",
+      "lname": "suresh",
+      "email": "m@gmail.com",
+      "pwd": ";l;l';l;l;l;l",
+      "mobile": "12312231231",
+      "gender": "Male",
+      "course": "Python",
+      "language": {
+        "telugu": "",
+        "english": "",
+        "hindi": ""
+      },
+      "remember": true,
+      "id": 19
+    },
+    {
+      "fname": "m@gmail.com",
+      "lname": "suresh",
+      "email": "m@gmail.com",
+      "pwd": "ffffffffffffffff",
+      "mobile": "suresh",
+      "gender": "Male",
+      "course": "Python",
+      "language": {
+        "telugu": "",
+        "english": "",
+        "hindi": ""
+      },
+      "remember": true,
+      "id": 20
+    },
+    {
+      "fname": "",
+      "lname": "",
+      "email": "",
+      "pwd": "",
+      "mobile": "",
+      "gender": "",
+      "course": "",
+      "language": {
+        "telugu": "",
+        "english": "",
+        "hindi": ""
+      },
+      "remember": "",
+      "id": 21
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "pwd": null,
+      "mobile": null,
+      "gender": null,
+      "course": null,
+      "language": {
+        "telugu": null,
+        "english": null,
+        "hindi": null
+      },
+      "remember": null,
+      "id": 22
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "pwd": null,
+      "mobile": null,
+      "gender": null,
+      "course": null,
+      "language": {
+        "telugu": null,
+        "english": null,
+        "hindi": null
+      },
+      "remember": null,
+      "id": 23
+    },
+    {
+      "fname": "",
+      "lname": "",
+      "email": "",
+      "pwd": "",
+      "mobile": "",
+      "gender": "",
+      "course": "",
+      "language": {
+        "telugu": "",
+        "english": "",
+        "hindi": ""
+      },
+      "remember": "",
+      "id": 24
+    },
+    {
+      "fname": "",
+      "lname": "",
+      "email": "",
+      "pwd": "",
+      "mobile": "",
+      "gender": "",
+      "course": "",
+      "language": {
+        "telugu": "",
+        "english": "",
+        "hindi": ""
+      },
+      "remember": "",
+      "id": 25
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "pwd": null,
+      "mobile": null,
+      "gender": null,
+      "course": null,
+      "language": {
+        "telugu": null,
+        "english": null,
+        "hindi": null
+      },
+      "remember": null,
+      "id": 26
+    }
+  ],
+  "Aaradhana": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [
+    {
+      "mobile": "12345",
+      "biodata": "suresh",
+      "gender": "Male",
+      "caste": "BC-D",
+      "photo": "C:\\fakepath\\6.JPG",
+      "state": "Madya Pradesh",
+      "district": "East Godavari",
+      "constituency": "Tuni",
+      "resume": "C:\\fakepath\\6.JPG",
+      "education": "Post Graduation",
+      "aadhar": "123456",
+      "pincode": "12345",
+      "id": 11
+    },
+    {
+      "mobile": "993485908349",
+      "biodata": "lkjfglkfdlkg",
+      "gender": "Female",
+      "caste": "BC-A",
+      "photo": "C:\\fakepath\\q2.jpg",
+      "state": "Bihar",
+      "district": "nellore",
+      "constituency": "vijayanagaram",
+      "resume": "C:\\fakepath\\q2.jpg",
+      "education": "Graduation",
+      "aadhar": "97834988759834",
+      "pincode": "908745t094095",
+      "id": 12
+    },
+    {
+      "mobile": "993485908349",
+      "biodata": "lkjfglkfdlkg",
+      "gender": "Female",
+      "caste": "3",
+      "photo": "C:\\fakepath\\d.jpg",
+      "state": "Bihar",
+      "district": "2",
+      "constituency": "2",
+      "resume": "C:\\fakepath\\q4.jpg",
+      "education": "2",
+      "aadhar": "97834988759834",
+      "pincode": "908745t094095",
+      "id": 15
+    },
+    {
+      "mobile": "993485908349",
+      "biodata": "kite, king colony",
+      "gender": "Female",
+      "caste": "3",
+      "photo": "C:\\fakepath\\d.jpg",
+      "state": "Bihar",
+      "district": "2",
+      "constituency": "2",
+      "resume": "C:\\fakepath\\q4.jpg",
+      "education": "2",
+      "aadhar": "97834988759834",
+      "pincode": "908745t094095",
+      "id": 16
+    },
+    {
+      "mobile": "993485908349",
+      "biodata": "kite, king colony",
+      "gender": "Female",
+      "caste": "3",
+      "photo": "C:\\fakepath\\d.jpg",
+      "state": "Bihar",
+      "district": "2",
+      "constituency": "2",
+      "resume": "C:\\fakepath\\q4.jpg",
+      "education": "2",
+      "aadhar": "97834988759834",
+      "pincode": "908745t094095",
+      "id": 17
+    },
+    {
+      "mobile": "993485908349",
+      "biodata": "kite, king colony",
+      "gender": "Female",
+      "caste": "3",
+      "photo": "C:\\fakepath\\d.jpg",
+      "state": "Bihar",
+      "district": "2",
+      "constituency": "2",
+      "resume": "C:\\fakepath\\q4.jpg",
+      "education": "2",
+      "aadhar": "97834988759834",
+      "pincode": "908745t094095",
+      "id": 18
+    },
+    {
+      "mobile": "993485908349",
+      "biodata": "kite, king colony",
+      "gender": "Female",
+      "caste": "BC-A",
+      "photo": "C:\\fakepath\\11.JPG",
+      "state": "Bihar",
+      "district": "East Godavari",
+      "constituency": "Rajahmundy Urban",
+      "resume": "C:\\fakepath\\12.JPG",
+      "education": "Graduation",
+      "aadhar": "97834988759834",
+      "pincode": "908745t094095",
+      "id": 20
+    },
+    {
+      "mobile": "1234567890",
+      "biodata": "venkatapuram",
+      "gender": "Male",
+      "caste": "BC-A",
+      "photo": "C:\\fakepath\\6.JPG",
+      "state": "Bihar",
+      "district": "East Godavari",
+      "constituency": "Tuni",
+      "resume": "C:\\fakepath\\6.JPG",
+      "education": "Post Graduation",
+      "aadhar": "72498738",
+      "pincode": "123213",
+      "id": 21
+    },
+    {
+      "mobile": "2342342",
+      "biodata": "kjhk..,h .fhg,",
+      "gender": "Male",
+      "caste": "BC-B",
+      "photo": "C:\\fakepath\\q3.jpg",
+      "state": "Andra Pradesh",
+      "district": "west godavari",
+      "constituency": "tuni",
+      "resume": "C:\\fakepath\\q3.jpg",
+      "education": "Graduation",
+      "aadhar": "97834988759834",
+      "pincode": "123123",
+      "id": 23
+    },
+    {
+      "mobile": "1234",
+      "biodata": "234",
+      "gender": "Male",
+      "caste": "BC-D",
+      "photo": "C:\\fakepath\\6.JPG",
+      "state": "Kerala",
+      "district": "Nellore",
+      "constituency": "Rajahmundy Rural",
+      "resume": "C:\\fakepath\\11.JPG",
+      "education": "Select Education",
+      "aadhar": "97834988759834",
+      "pincode": "1232",
+      "id": 26
+    },
+    {
+      "mobile": "4321",
+      "biodata": "qwertyqwerty",
+      "gender": "Male",
+      "caste": "BC-A",
+      "photo": "C:\\fakepath\\5.JPG",
+      "state": "Manipur",
+      "district": "Chittoor",
+      "constituency": "Tuni",
+      "resume": "C:\\fakepath\\13.JPG",
+      "education": "Post Graduation",
+      "aadhar": "97834988759834",
+      "pincode": "2343",
+      "id": 27
+    },
+    {
+      "mobile": "79870790",
+      "biodata": "suresh",
+      "gender": "Male",
+      "caste": "BC-D",
+      "photo": null,
+      "state": "Andra Pradesh",
+      "district": "East Godavari",
+      "constituency": "kakinada urban",
+      "resume": "C:\\fakepath\\5.JPG",
+      "education": "Post Graduation",
+      "aadhar": "97834988759834",
+      "pincode": "8780989",
+      "id": 28
+    },
+    {
+      "mobile": "12",
+      "biodata": "23",
+      "gender": "",
+      "caste": "BC-C",
+      "photo": "C:\\fakepath\\0.jpg",
+      "state": "Andra Pradesh",
+      "district": "East Godavari",
+      "constituency": "Tuni",
+      "resume": "C:\\fakepath\\6.JPG",
+      "education": "Post Graduation",
+      "aadhar": "97834988759834",
+      "pincode": "3e23",
+      "id": 29
+    },
+    {
+      "mobile": "dfvsd",
+      "biodata": "cdsdc",
+      "gender": "Male",
+      "caste": "BC-A",
+      "photo": "C:\\fakepath\\12.JPG",
+      "state": "Andra Pradesh",
+      "district": "East Godavari",
+      "constituency": "Tuni",
+      "resume": "C:\\fakepath\\11.JPG",
+      "education": "",
+      "aadhar": "72498738",
+      "pincode": "1232134",
+      "id": 30
+    },
+    {
+      "mobile": "13223",
+      "biodata": "34234",
+      "gender": "Female",
+      "caste": "BC-A",
+      "photo": "C:\\fakepath\\0.jpg",
+      "state": "Arunachal Pradesh",
+      "district": "East Godavari",
+      "constituency": "Tuni",
+      "resume": "C:\\fakepath\\11.JPG",
+      "education": "Post Graduation",
+      "aadhar": "97834988759834",
+      "pincode": "23e32",
+      "id": 31
+    },
+    {
+      "mobile": "9090",
+      "biodata": "amn",
+      "gender": "Male",
+      "caste": "BC-D",
+      "photo": "C:\\fakepath\\5.JPG",
+      "state": "Andra Pradesh",
+      "district": "Guntur",
+      "constituency": "Kakinada Rural",
+      "resume": "C:\\fakepath\\5.JPG",
+      "education": "Post Graduation",
+      "aadhar": "97834988",
+      "pincode": "123",
+      "id": 32
+    },
+    {
+      "mobile": "",
+      "biodata": "",
+      "gender": "",
+      "caste": "",
+      "photo": "",
+      "state": "",
+      "district": "",
+      "constituency": "",
+      "resume": "",
+      "education": "",
+      "aadhar": "",
+      "pincode": "",
+      "id": 33
+    },
+    {
+      "mobile": "432142134",
+      "biodata": "g;fdlgk;rt,l,;g,rtl;lyk,",
+      "gender": "Male",
+      "caste": "BC-D",
+      "photo": "C:\\fakepath\\WIN_20211009_10_54_11_Pro.jpg",
+      "state": "Jharkhand",
+      "district": "Chittoor",
+      "constituency": "Kakinada Urban",
+      "resume": "C:\\fakepath\\38.jpg",
+      "education": "Post Graduation",
+      "aadhar": "97834988759834",
+      "pincode": "124234",
+      "id": 34
+    }
+  ]
+}

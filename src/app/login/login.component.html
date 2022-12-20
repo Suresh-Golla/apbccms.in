@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container">
+  <form [formGroup]="loginForm">
+    <div class="middle">
+    <h3 style="text-align: center; text-transform: capitalize;">Feel free to enter your credential</h3>
+    <hr style="margin-left: 325px; margin-right: 325px;">
+
+    
+    <input type="text" formControlName="email" value="E-mail address"required /><br/><br/>
+    
+    <input type="text" formControlName="password" value="password" required /><br/><br/>
+    
+</div>
+    <div id="button">
+    <input  type="button" (click)="login()" name="submit" value="Login" /><br/><br/>
+    </div>
+    <p style="text-align: center;">Not have an account? Then please <a routerLink="/" style="text-decoration: none;">Signup</a>.</p>
+  </form>
+</div>
+
+</body>
+</html>

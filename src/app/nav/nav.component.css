@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+}
+.wrapper {
+  width: auto;
+  margin: auto;
+}
+.dark {
+  background-color: #dc3545;
+  color: white;
+}
+.light {
+  background-color: #e9edf2;
+}
+#top_div {
+  height: 40px;
+  line-height: 40px;
+}
+#logo_left {
+  display:inline-block;
+  margin-left: 25px;
+}
+.logo-img {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  /* border-radius: 50%; */
+  height: 90px;
+  width: 90px;
+}
+#logo_right {
+  float: right;
+  margin-top: 30px;
+}
+
+#textstyle {
+  height: 30px;
+  border-radius: 8px;
+}
+#button {
+  background-color: green;
+  color: white;
+  padding: 7px;
+  border-radius: 7px;
+  width: 70px;
+  border: 1px solid green;
+}
+
+ul li {
+  margin-left: 15px;
+  display: inline-block;
+  line-height: 35px;
+  height: 35px;
+  text-align: center;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+ul li a:hover {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+#bottom_div_right {
+  margin-top: 10px;
+  width: 300px;
+
+  padding: 8px;
+  font-size: 15px;
+  margin-right: 0px;
+  font-family: sans-serif;
+}
+h1 {
+  font-style: normal;
+  font-size: 20px;
+  color: black;
+}
+#t {
+  margin-left: 5px;
+}
+p {
+  text-align: left;
+  margin-left: 40px;
+  margin-bottom: px;
+  color: #dc3545;
+  padding-bottom: 5px;
+  line-height: 25px;
+}
+input[type="button1"] {
+  margin-left: 42px;
+  background-color: #14568c;
+  height: 35px;
+  width: 170px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 8px;
+  color: white;
+  font-size: small;
+}
+
+
+
+#logo {
+  margin-top: 380;
+  text-align: center;
+  background: #66bb6a;
+  height: 50px;
+  width: auto;
+  border-radius: 6px;
+  color: brown;
+  font-size: 40px;
+}
+#logo u {
+  text-decoration: none;
+}
+
+#logo1 {
+  margin-top: 10;
+  text-align: center;
+  background: white;
+  height: 50px;
+  width: auto;
+  border-radius: 6px;
+  color: brown;
+  font-size: 40px;
+}
+#logo1 u {
+  text-decoration: none;
+  margin-left: 200;
+  margin-right: 150;
+}
+
+#logo1 img {
+  margin: 0;
+}
+
+.dropdown-menu .dropdown-item {
+  color: black;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  margin-left: 110px;
+  margin-top: 10px;
+  border: 2px solid yellow;
+}
+.img-circle {
+  border-radius: 50%;
+  height: 70px;
+  margin-left: 140px;
+  width: 70px;
+  margin-top: 15px;
+  border: 2px solid yellow;
+}
+
+.cbn-title {
+  margin-top: 25px;
+  width: 300px;
+  float: right;
+  padding: 0.8px;
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.atch-title {
+  margin-top: 15px;
+  width: 300px;
+  float: right;
+  padding: 0.8px;
+  margin-left: 0px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.logo-title {
+  margin-top:25px;
+  width: 450px;
+  float: right;
+  padding: 0.8px;
+  margin-left: -65px;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.circle1 {
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  margin-right: -70px;
+  margin-top: 10px;
+  border: 2px solid yellow;
+}
+
+.img-circle1 {
+  border-radius: 50%;
+  height: 70px;
+  margin-left: 200px;
+  width: 70px;
+  margin-top: -20px;
+  border: 2px solid yellow;
+}
+
+.cbn-title1 {
+  margin-top: 25px;
+  width: 300px;
+  float: right;
+  margin-right: -185px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.atch-title1 {
+  margin-top: 15px;
+  width: 300px;
+  float: right;
+  padding: 0.8px;
+  margin-left: -50px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+
+/* .left-logo {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  height: 90px;
+  width: 60px;
+} */
+
+.logo-title1 {
+  margin-top:20px;
+  width: 450px;
+  float: right;
+  padding: 0.8px;
+  margin-right: -70px;
+  margin-left: -40px;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.button1 {
+  margin-left: 42px;
+  background-color: #14568c;
+  height: 35px;
+  width: 170px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 8px;
+  color: white;
+  font-size: small;
+}
+
+
+a.active {
+  background-color: black;
+  
+  color: white;
+}
+
+/* a.active {
+  background-color: white;
+  color: black;
+} */
+
+
+button.active {
+  background-color: grey;
+  color: white;
+}

@@ -1,0 +1,207 @@
+<div class="container-fluid">
+  <form [formGroup]="formValue">
+    <div class="row">
+      <div class="col-6">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >First Name</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            formControlName="fname"
+            [ngClass]="{'is-invalid':submitted && formValue.controls['fname'].errors}"
+          />
+
+          <div *ngIf="submitted && formValue.controls['fname'].errors" class="text-danger">
+            <div *ngIf="formValue.controls['fname'].errors['required']">First Name is required</div>
+            <div *ngIf="formValue.controls['fname'].errors['minlength']">First Name should be greaterthan or equals to 4 characters.</div>
+            <div *ngIf="formValue.controls['fname'].errors['maxlength']">First Name should be lessthan or equals to 20 characters.</div>
+            </div>
+
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Last Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputPassword1"
+            formControlName="lname"
+            [ngClass]="{'is-invalid':submitted && formValue.controls['lname'].errors}"
+          />
+          <div *ngIf="submitted && formValue.controls['lname'].errors" class="text-danger">
+            <div *ngIf="formValue.controls['lname'].errors['required']">Last Name is required</div>
+            <div *ngIf="formValue.controls['lname'].errors['minlength']">Last Name should be greaterthan or equals to 4 characters.</div>
+            <div *ngIf="formValue.controls['lname'].errors['maxlength']">Last Name should be lessthan or equals to 20 characters.</div>
+            </div>
+
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              formControlName="email"
+              [ngClass]="{'is-invalid':submitted && formValue.controls['email'].errors}"
+            />
+            <div *ngIf="submitted && formValue.controls['email'].errors" class="text-danger">
+              <div *ngIf="formValue.controls['email'].errors['required']">Email is required</div>
+              <div *ngIf="formValue.controls['email'].errors['email']">Email must be a valid email address</div>
+              </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              formControlName="pwd"
+              [ngClass]="{'is-invalid':submitted && formValue.controls['pwd'].errors}"
+            />
+            <div *ngIf="submitted && formValue.controls['pwd'].errors" class="text-danger">
+              <div *ngIf="formValue.controls['pwd'].errors['required']">Password is required</div>
+              <div *ngIf="formValue.controls['pwd'].errors['minlength']">Password must be at least 8 characters</div>
+              <div *ngIf="formValue.controls['pwd'].errors['maxlength']">Password must be at lessthan or equals to 20 characters</div>
+            </div>
+          </div>
+      </div>
+      <div class="col-6">
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Mobile Number</label>
+            <input
+              type="numer"
+              class="form-control"
+              id="exampleInputPassword1"formControlName="mobile"
+              [ngClass]="{'is-invalid':submitted && formValue.controls['mobile'].errors}"
+            />
+            <div *ngIf="submitted && formValue.controls['mobile'].errors" class="text-danger">
+              <div *ngIf="formValue.controls['mobile'].errors['required']">Mobile Number is required.</div>
+              <div *ngIf="formValue.controls['mobile'].errors['minlength']">Mobile Number must be at least 10 digits.</div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-check-label" for="inlineRadio3">Gender:</label>
+            <div class="form-check form-check-inline mx-2">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Male" formControlName="gender"
+                [ngClass]="{'is-invalid':submitted && formValue.controls['gender'].errors}">
+                <label class="form-check-label" for="inlineRadio1">Male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Female" formControlName="gender"
+                [ngClass]="{'is-invalid':submitted && formValue.controls['gender'].errors}">
+                <label class="form-check-label" for="inlineRadio2">Female</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="Other" formControlName="gender"
+                [ngClass]="{'is-invalid':submitted && formValue.controls['gender'].errors}">
+                <label class="form-check-label" for="inlineRadio3">Other</label>
+              </div>
+              <div *ngIf="submitted && formValue.controls['gender'].errors" class="text-danger">
+                <div *ngIf="formValue.controls['gender'].errors['required']">Gender is required.</div>
+                
+              </div>
+          </div>
+
+          <div>
+            <label for="exampleInputPassword1" class="form-label">Course</label>
+            <select class="form-select" aria-label="Default select example" formControlName="course"
+            [ngClass]="{'is-invalid':submitted && formValue.controls['course'].errors}">
+                <option selected>Select course</option>
+                <option *ngFor="let course of courses">{{course}}</option>               
+              </select>
+              <div *ngIf="submitted && formValue.controls['course'].errors" class="text-danger">
+                <div *ngIf="formValue.controls['course'].errors['required']">course is required.</div>
+                <div *ngIf="formValue.controls['course'].errors['minlength']">course Number must be at least 10 digits.</div>
+              </div>
+          </div>
+
+          
+          
+
+        <div class="mt-3 form-check">
+            <label class="form-check-label" for="exampleCheck1" style="margin-left:-25px; margin-right:5px; ">Languages Known:</label>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="telugu" formControlName="language" 
+            [ngClass]="{'is-invalid':submitted && formValue.controls['language'].errors}">
+            <label class="form-check-label" for="inlineCheckbox1">Telugu</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="english" formControlName="language"
+            [ngClass]="{'is-invalid':submitted && formValue.controls['language'].errors}">
+            <label class="form-check-label" for="inlineCheckbox2">English</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="hindi" formControlName="language"
+            [ngClass]="{'is-invalid':submitted && formValue.controls['language'].errors}">
+            <label class="form-check-label" for="inlineCheckbox3">Hindi</label>
+          </div>
+
+          <div *ngIf="submitted && formValue.controls['language'].errors" class="text-danger">
+            <div *ngIf="formValue.controls['language'].errors['required']">Language Number is required.</div>
+           
+          </div>
+
+        </div>
+
+        
+        <div class="mt-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" formControlName="remember"
+            [ngClass]="{'is-invalid':submitted && formValue.controls['remember'].errors}">
+            <label class="form-check-label" for="exampleCheck1"
+              >Remember me</label>
+        </div>
+
+      </div>
+    </div>
+
+    <button type="submit" (click)="postUser()" class="btn btn-primary" style="margin-left: 50%;">Submit</button>
+  </form>
+</div>
+
+
+<div>
+
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">S.No</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Password</th>
+        <th scope="col">Mobile Number</th>
+        <th scope="col">Gender</th>
+        <th scope="col">Course</th>
+        <th scope="col">Languages</th>
+        <th scope="col">Remember</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let x of data" >
+        <td>{{x.id}}</td>
+        <td>{{x.fname}}</td>
+        <td>{{x.lname}}</td>
+        <td>{{x.email}}</td>
+        <td>{{x.pwd}}</td>
+        <td>{{x.mobile}}</td>
+        <td>{{x.gender}}</td>
+        <td>{{x.course}}</td>
+        <td>{{x.language}}</td>
+        <td>{{x.remember}}</td>
+       
+      </tr>
+      
+    </tbody>
+  </table>
+
+</div>

@@ -1,0 +1,187 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div class="container">
+      <form [formGroup]="formValue">
+        <div class="middle">
+          <h3 style="text-align: center; text-transform: capitalize">
+            Candidte Registration(Job Seeker)
+          </h3>
+          <hr style="margin-left: 325px; margin-right: 325px" />
+
+          <div>
+            <input
+              type="text"
+              formControlName="firstName"              
+              [ngClass]="{'is-invalid':submitted && formValue.controls['firstName'].errors}"
+              placeholder="First Name"
+              class="form-control mb-3"             
+              (keydown)="restrictNumber($event)"
+              required
+            /> 
+
+            <div *ngIf="submitted && formValue.controls['firstName'].errors" class="alert-danger error " >
+                <div *ngIf="formValue.controls['firstName'].errors['required']">
+                  First Name is required
+                </div>
+                
+                <div *ngIf="formValue.controls['firstName'].errors['minlength']">
+                  First Name should contain atleast 3 characters.
+                </div>
+                
+                <div *ngIf="formValue.controls['firstName'].errors['maxlength']">
+                  First Name should be lessthan or equals to 20 characters.
+                </div>      
+                
+                <div *ngIf="formValue.controls['firstName'].errors['pattern']">
+                  Invalid First Name, it should be a character string.
+                </div>  
+              
+            </div>          
+
+          </div>
+
+          <div>
+            <input
+              type="text"
+              class="form-control mb-3"
+              formControlName="lastName"
+              [ngClass]="{'is-invalid':submitted && formValue.controls['lastName'].errors }"
+              placeholder="Last Name"
+              required
+            />         
+
+            <div *ngIf="submitted && formValue.controls['lastName'].errors" class="alert-danger error">
+              <div *ngIf="formValue.controls['lastName'].errors['required']">
+                Last Name is required
+              </div>
+              <div *ngIf="formValue.controls['lastName'].errors['minlength']">
+                Last Name should be greaterthan or equals to 4 characters.
+              </div>
+              <div *ngIf="formValue.controls['lastName'].errors['maxlength']">
+                Last Name should be lessthan or equals to 20 characters.
+              </div>
+            </div>
+
+          </div>
+
+          <div>            
+            <input
+              type="text"
+              class="form-control mb-3"
+              formControlName="email"
+              [ngClass]="{'is-invalid':submitted && formValue.controls['email'].errors}"
+              placeholder="E-mail address"
+              required
+            />
+
+            <div *ngIf="submitted && formValue.controls['email'].errors" class="alert alert-danger error">
+              <div *ngIf="formValue.controls['email'].errors['required']" >
+                Email is required
+              </div>
+              <div *ngIf="formValue.controls['email'].errors['email']">
+                Email must be a valid email address
+              </div>
+              <div *ngIf="formValue.controls['email'].errors['maxlength']">
+                Email should be lessthan or equals to 20 characters.
+              </div>
+            </div>
+
+          </div>
+
+          <div>
+            <input
+              type="text"
+              class="form-control mb-3"
+              formControlName="password"
+              [ngClass]="{'is-invalid':submitted && formValue.controls['password'].errors}"
+              placeholder="password"
+              required
+            />
+
+            
+            <div *ngIf="submitted && formValue.controls['password'].errors" class="alert alert-danger error">
+              <div *ngIf="formValue.controls['password'].errors['required']">
+                Password is required
+              </div>
+              <div *ngIf="formValue.controls['password'].errors['minlength']">
+                Password should be greaterthan or equals to 8 characters.
+              </div>
+              <div *ngIf="formValue.controls['password'].errors['maxlength']">
+                Password should be lessthan or equals to 20 characters.
+              </div>
+            </div>
+
+          </div>
+
+          <div>
+            <input
+              type="text"
+              class="form-control mb-3"
+              formControlName="cpassword"
+              [ngClass]="{'is-invalid':submitted && formValue.controls['cpassword'].errors}"
+              placeholder="Confirm password"
+              required
+            />
+
+            
+            <div *ngIf="submitted && formValue.controls['cpassword'].errors" class="alert alert-danger error">
+              <div *ngIf="formValue.controls['cpassword'].errors['required']">
+                Conform password is required
+              </div>
+              <div *ngIf="formValue.controls['cpassword'].errors['minlength']">
+                Conform password should be greaterthan or equals to 8 characters.
+              </div>
+              <div *ngIf="formValue.controls['cpassword'].errors['maxlength']">
+                Conform password should be lessthan or equals to 20 characters.
+              </div>
+            </div>
+
+          </div>
+
+          <div>
+            <input
+              type="text"
+              class="form-control mb-3"
+              formControlName="mobile"
+              [ngClass]="{'is-invalid':submitted && formValue.controls['mobile'].errors}"
+              placeholder="mobile number"              
+              (keypress)="OnlyNumbersAllowed($event)"
+              (blur)="onlyNmeric()"
+              [(ngModel)]="enteredValue"
+              required
+            />
+
+            
+            <div *ngIf="submitted && formValue.controls['mobile'].errors" class="alert alert-danger error">
+              <div *ngIf="formValue.controls['mobile'].errors['required']">
+                Mobile Number is required
+              </div>
+              <div *ngIf="formValue.controls['mobile'].errors['minlength']">
+                Mobile Number should be greaterthan or equals to 10 characters.
+              </div>
+              <div *ngIf="formValue.controls['mobile'].errors['maxlength']">
+                Mobile Number should be lessthan or equals to 10 characters.
+              </div>
+            </div>
+
+          </div>
+        </div> 
+        <div id="button">
+          <input
+            type="button"
+            (click)="postCandidateDetails()"
+            name="submit"
+            value="SignUp"
+          />
+        </div>
+        <p style="text-align: center">
+          Already have an account? Then please
+          <a routerLink="/login" style="text-decoration: none">Signin</a>.
+        </p>
+      </form>
+    </div>
+  </body>
+</html>

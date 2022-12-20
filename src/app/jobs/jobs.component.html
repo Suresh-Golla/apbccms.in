@@ -1,0 +1,70 @@
+<table class="table table-striped table-hover table-bordered" >
+    <thead>
+      <tr>
+        <th scope="col">S.No</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Email</th>
+        <th scope="col">Password</th>
+        <th scope="col">Confirm Password</th>
+        <th scope="col">Mobile</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of candidataData">
+        <td>{{row.id}}</td>
+        <td>{{row.firstName}}</td>
+        <td>{{row.lastName}}</td>
+        <td>{{row.email}}</td>
+        <td>{{row.password}}</td>
+        <td>{{row.cpassword}}</td>
+        <td>{{row.mobile}}</td>
+        <td>
+            <button  type="button" class="btn btn-success" routerLink="/signup/{{row.id}}">Update</button>&nbsp;&nbsp;
+            <button (click)="deleteJob(row)" type="button" class="btn btn-danger">Delete</button>&nbsp;&nbsp;
+            <!-- <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">View</button> -->
+        </td>
+      </tr>
+      <tr>
+    
+    </tbody>
+  </table>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+     
+       <div class="row">
+        <div class="col-3" >
+          <div>Full Name:</div>
+          <div>Email:</div>
+          <div>Password :</div>
+          <div>Password :</div>
+          <div>Mobile   :</div>
+        </div>
+        <div class="col-9">
+          <div>{{candidataData.firstName}}</div>
+          <div>Email:</div>
+          <div>Password:</div>
+          <div>Password:</div>
+          <div>Mobile:</div>
+        </div>
+       </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>

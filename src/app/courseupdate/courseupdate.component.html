@@ -1,0 +1,32 @@
+<div class="container">
+    <form [formGroup]="courseForm">
+
+        <label for="exampleInputEmail1" class="form-label"
+        >First Name</label
+      >
+      <input
+        type="text"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        formControlName="fname"
+       [ngClass]="{'is-invalid':submitted && courseForm.controls['fname'].errors}"
+      />
+      <!--  -->
+      <!-- [class.is-invalid]="courseForm.controls['fname'].touched" -->
+      <div *ngIf="submitted && courseForm.controls['fname'].errors" class="text-danger">
+        <div *ngIf="courseForm.controls['fname'].errors['required']">First Name is required</div>
+        <div *ngIf="courseForm.controls['fname'].errors['minlength']">First Name should be greaterthan or equals to 4 characters.</div>
+        <div *ngIf="courseForm.controls['fname'].errors['maxlength']">First Name should be lessthan or equals to 20 characters.</div>
+        </div>
+
+   <br><br>
+
+   
+
+      <button (click)="  postUser()">submit</button>
+
+
+   
+    </form>
+</div>

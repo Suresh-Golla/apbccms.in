@@ -1,0 +1,32 @@
+<table class="table table-striped table-hover table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">S.No</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Email</th>
+        <th scope="col">Password</th>
+        <th scope="col">Confirm Password</th>
+        <th scope="col">Mobile</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of studentData">
+        <td>{{row.id}}</td>
+        <td>{{row.firstName}}</td>
+        <td>{{row.lastName}}</td>
+        <td>{{row.email}}</td>
+        <td>{{row.password}}</td>
+        <td>{{row.cpassword}}</td>
+        <td>{{row.mobile}}</td>
+        <td>
+            <button  type="button" class="btn btn-success" routerLink="/supdate/{{row.id}}">Update</button>&nbsp;&nbsp;
+            <button (click)="deleteStudent(row)" type="button" class="btn btn-danger">Delete</button>&nbsp;&nbsp;
+            <!-- <button type="button" class="btn btn-info">View</button> -->
+        </td>
+      </tr>
+      <tr>
+    
+    </tbody>
+  </table>

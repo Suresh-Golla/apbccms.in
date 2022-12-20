@@ -1,0 +1,188 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div class="container">
+      <form [formGroup]="editProfile">
+        <div class="middle">
+          <h3 style="text-align: left; text-transform: capitalize">Profile</h3>
+
+          <p style="text-align: left">Please fill this to continue...</p>
+          <div>
+            <label for="">Mobile Number</label><br />
+            <input
+              type="text"
+              formControlName="mobile"
+              placeholder="mobile number"
+              required
+            /><br /><br />
+          </div>
+          <div>
+            <label for="">Biodata(160 characters)</label><br />
+            <textarea
+              type="textarea"
+              formControlName="biodata"
+              style="width: 50%; height: 100px"
+              placeholder="Enter your biodata here..."
+            ></textarea
+            ><br /><br />
+          </div>
+
+          <div>
+            <label for="">Gender:</label>
+            <div style="margin-left: -30px; margin-top: -40px; width: 400px">
+              <select
+                class="form-select"
+                aria-label="Default select example"
+                formControlName="gender"
+              >
+                <option selected>Choose your gender...</option>
+                <option *ngFor="let gender of genderList">{{ gender }}</option>
+              </select>
+            </div>
+            <br />
+          </div>
+
+          <div>
+            <label for="">Caste:</label>
+            <div style="margin-left: -30px; margin-top: -40px; width: 400px">
+              <select
+                class="form-select"
+                aria-label="Default select example"
+                formControlName="caste"
+              >
+                <option selected>Select your caste</option>
+                <option *ngFor="let Caste of caste">{{ Caste }}</option>
+              </select>
+            </div>
+            <br />
+          </div>
+
+          <!-- <label for="">Photo:</label><div>
+         <input type="file" id="myFile" name="filename"><br>
+    </div><br> -->
+
+          <div class="mb-3">
+            <label for="formFile" class="form-label">Photo:</label>
+            <input
+              class="form-control form-control-sm"
+              type="file"
+              id="formFile"
+              style="width: 50%; padding: 15px"
+              formControlName="photo"
+            />
+          </div>
+          <br />
+
+          <div>
+            <label for="">State:</label>
+            <div style="margin-left: -30px; margin-top: -40px; width: 400px">
+              <select
+                class="form-select"
+                aria-label="Default select example"
+                formControlName="state"
+              >
+                <option value="SelectState" selected>Select State</option>
+                <option *ngFor="let state of states">{{ state }}</option>
+              </select>
+            </div>
+            <br />
+          </div>
+
+          <div>
+            <label for="">District:</label>
+            <div style="margin-left: -30px; margin-top: -40px; width: 400px">
+              <select
+                class="form-select"
+                aria-label="Default select example"
+                formControlName="district"
+              >
+                <option selected>Select your District</option>
+                <option *ngFor="let district of districts">
+                  {{ district }}
+                </option>
+              </select>
+            </div>
+            <br />
+          </div>
+
+          <div>
+            <label for="">Select Constituency:</label>
+            <div style="margin-left: 60px; margin-top: -40px; width: 400px">
+              <select
+                class="form-select"
+                aria-label="Default select example"
+                formControlName="constituency"
+              >
+                <option selected>Select Constituency</option>
+                <option *ngFor="let constituency of constitutions">
+                  {{ constituency }}
+                </option>
+              </select>
+            </div>
+            <br />
+          </div>
+
+          <div class="mb-3">
+            <label for="formFile" class="form-label">Resume:</label>
+            <input
+              class="form-control form-control-sm"
+              type="file"
+              id="formFile"
+              style="width: 50%; padding: 15px"
+              formControlName="resume"
+            />
+          </div>
+          <br />
+
+          <div>
+            <label for="">Education:</label>
+            <div style="margin-left: -10px; margin-top: -40px; width: 400px">
+              <select
+                class="form-select"
+                aria-label="Default select example"
+                formControlName="education"
+              >
+                <option selected>Select Education</option>
+                <option *ngFor="let course of courses">{{ course }}</option>
+              </select>
+            </div>
+            <br />
+          </div>
+
+          <div>
+            <label for="">Aadhar Number</label><br />
+            <input
+              type="text"
+              formControlName="aadhar"
+              name="aadharnumber"
+              placeholder="aadhar number"
+              required
+            /><br /><br />
+          </div>
+
+          <div>
+            <label for="">Pincode</label><br />
+            <input
+              type="text"
+              formControlName="pincode"
+              placeholder="pincode"
+              required
+            /><br /><br />
+          </div>
+        </div>
+
+        <div id="button">
+          <input
+            type="button"
+            name="submit"
+            value="Submit"
+            (click)="updateCuurentProfile()"
+            routerLink="/profile"
+          /><br /><br />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
